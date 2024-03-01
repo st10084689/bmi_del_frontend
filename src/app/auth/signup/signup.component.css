@@ -1,0 +1,45 @@
+.containerOne{
+    display: flex;
+    align-items: center;
+    height: 70vh;        
+  }
+
+.context{
+    margin-left: 50px;
+    width: 50%;
+    float: left;
+}
+
+.login-form{
+    width: 50%;
+    float: right;
+    border-left: solid #bdbdbd;
+    padding-left: 40px;   
+}
+h2{
+    color: #4E4E4E;
+}
+input{
+    border: 3px solid #717070;
+    border-radius: 5px;
+    height: 30px;
+    width: 70%;
+    font-size: large;
+    margin-top: 15px;
+
+}
+button{
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    width: 72%;
+    background-color: #9EFF00;
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+button:hover{
+    transform: scale(1.05);
+}

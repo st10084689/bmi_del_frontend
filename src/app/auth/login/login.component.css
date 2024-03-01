@@ -1,0 +1,44 @@
+.content-box{
+    margin-top: 50px;
+    display: flex;
+
+}
+.login-form{
+    margin: auto auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+h2{
+    margin: 0px auto;
+    margin-bottom: 10px;
+    color: #4E4E4E;
+}
+input{
+    margin: 0px auto;
+    border: 3px solid #717070;
+    border-radius: 5px;
+    height: 40px;
+    width: 70%;
+    font-size: large;
+    margin-top: 15px;
+
+}
+button{
+    margin: 0px auto;
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    width: 72%;
+    background-color: #9EFF00;
+    color: aliceblue;
+    font-size: larger;
+    border-radius: 10px;
+    font-size: larger;
+    
+}
+button:hover{
+    transform: scale(1.05);
+}

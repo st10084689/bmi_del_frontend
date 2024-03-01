@@ -1,0 +1,38 @@
+/*reset*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/**/
+button{
+  border: none;
+  background-color: transparent;
+}
+.nav{
+  height: 90px;
+  display: flex;
+  border-bottom: solid #4E4E4E;
+  align-items: center;
+  border-width: 3px;
+  border-color:  rgba(78, 78, 78, 0.2);
+  
+}
+.nav__button{
+  padding: 20px;
+  font-size: 20px;
+  color: rgba(78, 78, 78, 0.822);
+}
+.nav__button:nth-of-type(2){
+  margin-left: auto;
+}
+.nav__button:nth-of-type(3){
+  background-color: greenyellow;
+  border-radius: 10px;
+ padding: 10px 35px;
+ color: white;
+
+}
+.nav__button:nth-of-type(3):hover{
+  transform: scale(1.05);
+}
+
