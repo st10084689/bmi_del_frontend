@@ -21,7 +21,7 @@ export class LoginComponent {
 
   submitForm() {
     // Send HTTP request
-    this.http.post('http://localhost:3000/sendDeleteLink', { email: this.email }).subscribe(
+    this.http.post('https://bmi-backend-api.azurewebsites.net/sendDeleteLink', { email: this.email }).subscribe(
       (response) => {
         console.log('Request successful', response);
         alert('Email Sent to ' + this.email); 
