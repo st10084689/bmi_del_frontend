@@ -4,7 +4,8 @@
       <h2 class="roboto-bold">Enter Email to Delete Account and Data</h2>
       <input class="roboto-regular" placeholder="Email" type="email" (input)="onEmailInput($event)" 
              name="email" required/>
-      <button type="submit" class="roboto-bold" >Continue</button>
+             <button type="submit" class="roboto-bold" [disabled]="isDisabled">Continue</button>
+      
     </form>
   </div>
 </div>
